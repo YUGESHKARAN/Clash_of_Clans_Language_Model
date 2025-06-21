@@ -1,6 +1,6 @@
 # Clash of Clans Language Model 🏰🧠
 --> A mini language model developed from scratch using PyTorch <br>
---> fine-tuned on a supervised Clash of Clans dataset (clash_finetune_chat_100.jsonl).<br>
+--> fine-tuned on a supervised Clash of Clans custom dataset (clash_finetune_chat_100.jsonl).<br>
 --> The model has approximately **2.96 million** total and trainable parameters.<br>
 
 ### Prerequisites
@@ -56,3 +56,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 - Clash of Clans (Supercell) for inspiration
 - Open-source ML and NLP communities
+- Big thanks to **Andrej Karpathy** for his lecture on reproducing GPT-2. 
