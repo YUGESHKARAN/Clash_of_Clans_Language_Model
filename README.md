@@ -1,7 +1,7 @@
 # Clash of Clans Language Model 🏰🧠
---> A mini language model developed from scratch using PyTorch
---> fine-tuned on a supervised Clash of Clans dataset (clash_finetune_chat_100.jsonl). 
---> The model has approximately **2.96 million** total and trainable parameters.
+--> A mini language model developed from scratch using PyTorch <br>
+--> fine-tuned on a supervised Clash of Clans dataset (clash_finetune_chat_100.jsonl).<br>
+--> The model has approximately **2.96 million** total and trainable parameters.<br>
 
 ### Prerequisites
 
