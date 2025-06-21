@@ -26,23 +26,23 @@
 
 # 📁 Project Structure
 
-Clash_of_Clans_Language_Model/
-├── clash_finetune_chat_100.jsonl   # supervised dataset with c.o.c heros and toops info.
-├── clash_of_clans.ipynb            # Jupyter Notebooks for exploration and experiments
-├── index. py                       # Saved or pre-trained models
-├── requirements.txt                # Python dependencies
-├── environment.yml                 # (Optional) Conda environment
-└── README.md                       # Project documentation
+Clash_of_Clans_Language_Model/ <br>
+├── clash_finetune_chat_100.jsonl   # supervised dataset with c.o.c heros and toops info. <br>
+├── clash_of_clans.ipynb            # Jupyter Notebooks for exploration and experiments <br>
+├── index. py                       # Saved or pre-trained models <br>
+├── requirements.txt                # Python dependencies <br>
+├── environment.yml                 # (Optional) Conda  <br>
+└── README.md                       # Project documentation <br>
 
-## Hyperparameters
-batch_size = 64
-block_size = 256
-n_embed = 256
-n_heads = 8
-n_layer = 6
-learning_rate = 1e-4
-max_iters = 3000
-eval_interval = 100
+## Hyperparameters <br>
+batch_size = 64 <br>
+block_size = 256 <br>
+n_embed = 256 <br>
+n_heads = 8 <br>
+n_layer = 6 <br>
+learning_rate = 1e-4 <br>
+max_iters = 3000 <br>
+eval_interval = 100 <br>
 
 ## 🤝 Contributing
 
