@@ -46,7 +46,7 @@ eval_interval = 100 <br>
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please open issues or pull requests for suggestions, bug fixes, or improvements.
+Contributions are welcome! Open issues or pull requests for suggestions, bug fixes, or improvements.
 
 ## 📝 License
 
