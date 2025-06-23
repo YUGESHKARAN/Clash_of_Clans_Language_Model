@@ -1,6 +1,6 @@
 # Clash of Clans Language Model 🏰🧠
 --> A mini language model developed from scratch using PyTorch <br>
---> fine-tuned on a supervised Clash of Clans custom dataset (clash_finetune_chat_100.jsonl).<br>
+--> fine-tuned on a supervised Clash of Clans custom dataset (clash_finetune_chat_700.jsonl).<br>
 --> The model has approximately **2.96 million** total and trainable parameters.<br>
 
 ### Prerequisites
@@ -27,7 +27,7 @@
 # 📁 Project Structure
 
 Clash_of_Clans_Language_Model/ <br>
-├── clash_finetune_chat_100.jsonl   # supervised dataset with c.o.c heros and toops info. <br>
+├── clash_finetune_chat_700.jsonl   # supervised dataset with c.o.c heros, defense and troops info. <br>
 ├── clash_of_clans.ipynb            # Jupyter Notebooks for exploration and experiments <br>
 ├── index. py                       # Saved or pre-trained models <br>
 ├── requirements.txt                # Python dependencies <br>
