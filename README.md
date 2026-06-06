@@ -43,13 +43,13 @@ The model contains **~2.96 million** trainable parameters and is designed for NL
 
 ```plaintext
 Clash_of_Clans_Language_Model/
-├── clash_finetune_chat_700.jsonl      # Custom supervised dataset
-├── index.py                           # Model code (training and inference)
-├── requirements.txt                   # Python dependencies
+├── clash_finetune_chat_700.jsonl       # Custom supervised dataset
+├── index.py                            # Model code (training and inference)
+├── requirements.txt                    # Python dependencies
 ├── language_model_class.py             # model architecture and hyperparameters
 ├── clash_transformer_finetuned.pth     # model pretrained weights
 ├── tokenizer.pkl                       # pre-saved tokenizer map (dictionary)
-└── README.md                          # Project documentation
+└── README.md                           # Project documentation
 ```
 
 ## Model Hyperparameters
