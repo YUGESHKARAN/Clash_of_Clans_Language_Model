@@ -46,15 +46,16 @@ Clash_of_Clans_Language_Model/
 ├── clash_finetune_chat_700.jsonl      # Custom supervised dataset
 ├── index.py                           # Model code (training and inference)
 ├── requirements.txt                   # Python dependencies
-├──language_model_class.py             # model architecture and hyperparameters
-├──clash_transformer_finetuned.pth     # model pretrained weights
-├──tokenizer.pkl                       # pre-saved tokenizer map (dictionary)
+├── language_model_class.py             # model architecture and hyperparameters
+├── clash_transformer_finetuned.pth     # model pretrained weights
+├── tokenizer.pkl                       # pre-saved tokenizer map (dictionary)
 └── README.md                          # Project documentation
 ```
 
 ## Model Hyperparameters
 
-- `batch_size`: 64
+- `vocab_size`: 1013    
+- `batch_size`: 64    
 - `block_size`: 256
 - `n_embed`: 256
 - `n_heads`: 8
