@@ -5,7 +5,6 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-
 with open("tokenizer.pkl", "rb") as f:
     stoi, itos = pickle.load(f)
 
@@ -64,7 +63,8 @@ def chat():
     full_text = decode(output_ids[0].tolist())
     start = full_text.find("<|assistant|>") + len("<|assistant|>")
     end = full_text.find("<|endoftext|>", start)
-    assistant_response = full_text[start:end].strip() if end != -1 else full_text[start:].strip()
+
+    assistant_response = full_text[start:-1].strip() if end != -1 else full_text[start:end].strip()
 
     return jsonify({
         "prompt": user_input,
